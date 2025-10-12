@@ -29,3 +29,12 @@ I also fixed up the schematic a bit, as it was really messy, and there was unnee
 I'll probably do either the eMMC portion, or the power section next, depending on my mood lol..
 I will say that I haven't tried routing out everything, but it seems to be ridiculously annoying...  
 
+## 10/12/2025 7 PM - Started the routing for LPDDR4 RAM  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTg5NywicHVyIjoiYmxvYl9pZCJ9fQ==--d05cfd5bbf2f8fc7fd101b3e63ef94f8ebef35b6/image.png)
+
+Hey guys! After finishing the schematic, I started routing the LPDDR4 RAM, and its safe to say that this was a real difficulty. I only routed two byte groups and it was ridiculously cramped...
+
+I finished all of the data lines for the first two byte groups, so onto the address lines and the other byte groups :///
+  
+
