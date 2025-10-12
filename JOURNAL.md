@@ -10,7 +10,7 @@ This is my journal of the design and building process of **Rocky SBC**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/400).
 
 
-## 10/12/2025 - Started researching and schematic  
+## 10/12/2025 1 AM - Started researching and schematic  
 
 ![Screenshot 2025-10-12 at 1.23.20 AM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTc1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--387e65c9144f9f6a78f145ddd09c317e3ff74028/Screenshot%202025-10-12%20at%201.23.20%E2%80%AFAM.png)
 ![Screenshot 2025-10-12 at 1.23.09 AM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTc1MywicHVyIjoiYmxvYl9pZCJ9fQ==--774181ac4928429bcaec469269d0a204da17489d/Screenshot%202025-10-12%20at%201.23.09%E2%80%AFAM.png)
@@ -19,4 +19,13 @@ I started by finding out which processor I wanted to use! This was the main comp
 I also researched my RAM on LCSC, when I found a beautiful SK Hynix RAM module for a extremely cheap price! 16GB of RAM, LPDDR4 at that, for less than $20!
 Using my prior knowledge and skills, I checked the datasheets (I hate you Rockchip for not giving a solid datasheet) and pin mapped to the appropriate areas.
 It's around 1 am right now, and I still didn't finish the RAM schematic, so I'm aiming to do the RAM and power schema tommorow!  
+
+## 10/12/2025 11 AM - Finished LPDDR4 RAM schematic!  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTgxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--0423c85fd8bc2a83442d7ea7c391dc94071dadf4/image.png)
+
+So from my goals last night, I immediately woke up to finish the RAM schematic. It was easier than anticipated, as the processor had dedicated pins for LPDDR4! 
+I also fixed up the schematic a bit, as it was really messy, and there was unneeded text everywhere... 
+I'll probably do either the eMMC portion, or the power section next, depending on my mood lol..
+I will say that I haven't tried routing out everything, but it seems to be ridiculously annoying...  
 
