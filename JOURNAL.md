@@ -38,3 +38,15 @@ Hey guys! After finishing the schematic, I started routing the LPDDR4 RAM, and i
 I finished all of the data lines for the first two byte groups, so onto the address lines and the other byte groups :///
   
 
+## 10/12/2025 10 PM - I have prayed to the BGA gods and they have answered!!!  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTkzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--384ea1438b0e649a43cc04640c4afb04972cef60/image.png)
+
+Yes.
+I finished the RAM routing.
+My back hurts.
+Okay so since there need to be detail...
+I routed the rest of the Address and byte lines, as long as the clock lines. The processor is really iffy since the BGA pins are all over the place, so I had to really use the three layers wisely. My clock traces are 33mm, which is absolutely crazy...
+I tried my best to length match the groups (bytes and address) and I achieved a max skew of +-.5mm, which is actually pretty good! 
+Next, I will probably do the power section, and the decoupling caps for the RAM and RK3566.  
+
