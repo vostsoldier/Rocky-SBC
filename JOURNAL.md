@@ -50,3 +50,14 @@ I routed the rest of the Address and byte lines, as long as the clock lines. The
 I tried my best to length match the groups (bytes and address) and I achieved a max skew of +-.5mm, which is actually pretty good! 
 Next, I will probably do the power section, and the decoupling caps for the RAM and RK3566.  
 
+## 10/13/2025 - Added RAM decoupling caps  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjExNywicHVyIjoiYmxvYl9pZCJ9fQ==--2602318c94931495c60faac79d95d1188c0f91a2/image.png)
+
+Yeah so I was out the whole day so heres my progress...
+I had to squeeze a lot of the decoupling caps onto the RAM since it has a absurdly crazy amount of power pins. Most of the caps are on the back since they allow for the shortest return path.
+A lot, and I mean alot of via in pad was used... 
+I had the signal traces from the address and byte lines, which made it annoying to fit the caps (less than 0.07mm spacing), so some of the caps are a bit far away...
+Alright tomorrow I plan to add the decoupling caps to the processor, and start on the power section schematic.
+P.S a total of 40 decoupling caps were used....  
+
