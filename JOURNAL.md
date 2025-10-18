@@ -61,3 +61,11 @@ I had the signal traces from the address and byte lines, which made it annoying 
 Alright tomorrow I plan to add the decoupling caps to the processor, and start on the power section schematic.
 P.S a total of 40 decoupling caps were used....  
 
+## 10/18/2025 - Rerouted RAM   
+
+![Screenshot 2025-10-18 at 12.12.25 PM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzAwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--8313ee095ce7efcd3f9712a708a748f96aa6c7c8/Screenshot%202025-10-18%20at%2012.12.25%E2%80%AFPM.png)
+
+It's been around a week since the last update, I was super duper swamped with work. Anyways, I cleaned up some the of the routing, and added two more layers, as I wanted a really clean and concise layer for the differential pairs! 
+
+I had to move a couple of traces around, but there weren't much changes.  
+
