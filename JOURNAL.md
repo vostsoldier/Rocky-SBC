@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Rocky SBC**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/400).
-
-
 ## 10/12/2025 1 AM - Started researching and schematic  
 
 ![Screenshot 2025-10-12 at 1.23.20 AM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTc1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--387e65c9144f9f6a78f145ddd09c317e3ff74028/Screenshot%202025-10-12%20at%201.23.20%E2%80%AFAM.png)
@@ -68,4 +64,16 @@ P.S a total of 40 decoupling caps were used....
 It's been around a week since the last update, I was super duper swamped with work. Anyways, I cleaned up some the of the routing, and added two more layers, as I wanted a really clean and concise layer for the differential pairs! 
 
 I had to move a couple of traces around, but there weren't much changes.  
+
+## 10/31/2025 - Added EMMC storage!  
+
+![Screenshot 2025-10-31 at 4.50.43 PM](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzE4MywicHVyIjoiYmxvYl9pZCJ9fQ==--0c0a1fa3b5a00016fae33542d0d131940f39e2f0/Screenshot%202025-10-31%20at%204.50.43%E2%80%AFPM.png)
+
+I started off this session by researching about the types of memory commonly used in compute modules. It seemed that EMMC was the most cheapest, but efficient type!
+
+I checked the specs of my CPU, and saw that it supported the 5.1 EMMC interface, so I inputted these parameters into LCSC.
+A couple of brands came up, most notably Sandisk and SAMSUNG. I opted for SAMSUNG, since it was a bit more cost efficient, and it was extremely reputable. 
+After searching a bit for the symbol and footprint, Snapmagic had the exact product, which was super duper great!
+
+I just checked the datasheet, linked up pins, added needed discrete components, etc, etc.  
 
