@@ -65,7 +65,7 @@ It's been around a week since the last update, I was super duper swamped with wo
 
 I had to move a couple of traces around, but there weren't much changes.  
 
-## 10/31/2025 - Added EMMC storage!  
+## 10/31/2025 4 PM - Added EMMC storage!  
 
 ![Screenshot 2025-10-31 at 4.50.43 PM](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzE4MywicHVyIjoiYmxvYl9pZCJ9fQ==--0c0a1fa3b5a00016fae33542d0d131940f39e2f0/Screenshot%202025-10-31%20at%204.50.43%E2%80%AFPM.png)
 
@@ -76,4 +76,16 @@ A couple of brands came up, most notably Sandisk and SAMSUNG. I opted for SAMSUN
 After searching a bit for the symbol and footprint, Snapmagic had the exact product, which was super duper great!
 
 I just checked the datasheet, linked up pins, added needed discrete components, etc, etc.  
+
+## 10/31/2025 5 PM - Routed the EMMC!  
+
+![Screenshot 2025-10-31 at 4.57.31 PM](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzE4NiwicHVyIjoiYmxvYl9pZCJ9fQ==--927c41cf95d4c1a51f1b2fa1062074d57e93bae1/Screenshot%202025-10-31%20at%204.57.31%E2%80%AFPM.png)
+
+After making the schematic, I just was left with all of the routing. The EMMC had only a few pins, so it was decently easy to route. I still had to impedance and length match the data and clock traces, but it was chill (only 8 pins to group together).
+
+I revised my routing a couple of times, until I got the most efficient way that won't cover the other pins that I need to fanout.
+
+I placed my decoupling caps and pullup resistors in a nearby area, usually on top or very close to the pins. 
+
+Next, I'll be tackling the ethernet transreciever!  
 
