@@ -89,7 +89,7 @@ I placed my decoupling caps and pullup resistors in a nearby area, usually on to
 
 Next, I'll be tackling the ethernet transreciever!  
 
-## 11/2/2025 - Finished the RGMII Ethernet Transceiver Schematic  
+## 11/2/2025 6:39 PM - Finished the RGMII Ethernet Transceiver Schematic  
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzkxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--eef135050eb13bddf567ff2b38a82eb2a1f4be33/image.png)
 
@@ -98,4 +98,14 @@ For this journal entry, I'll be talking a bit on how I made this design. After t
 A couple of pullups and pulldowns were needed in order to make sure that the signal was either clean, or was at a 0/1 state for certain settings.
 
 Thankfully nothing was differentially required, but strict length and impedance matching was needed, which I will keep in mind when routing this IC.  
+
+## 11/2/2025 6:42 PM - Routed the Ethernet Transceiver  
+
+![Screenshot 2025-11-02 at 6.35.18 PM](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzkxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--2767f0820c86d508446e6848b62f86c9c2466e37/Screenshot%202025-11-02%20at%206.35.18%E2%80%AFPM.png)
+
+After creating the schematic, my next task was to route the IC onto the CPU. Since the pin functions were already mapped out, I didn't have to go through much iterations on pin function mapping, which saved alot of time. 
+
+However since the BGA pins were quite dense, it was a bit annoying to fanout all of the pins (the columns/rows sit right next to each other). 
+
+I put most of the 1/0 status signal pullups/pulldowns on the other side of the board, as well as most decoupling caps to save space, and to ensure that the return/accepting path was quick.  
 
