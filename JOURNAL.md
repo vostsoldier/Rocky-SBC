@@ -89,3 +89,13 @@ I placed my decoupling caps and pullup resistors in a nearby area, usually on to
 
 Next, I'll be tackling the ethernet transreciever!  
 
+## 11/2/2025 - Finished the RGMII Ethernet Transceiver Schematic  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzkxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--eef135050eb13bddf567ff2b38a82eb2a1f4be33/image.png)
+
+For this journal entry, I'll be talking a bit on how I made this design. After taking a look at Realtek's datasheets, most of the CPU pins were perfectly mapped out, and had a dedicated function for Ethernet RGMII, which made everything a whole lot easier.
+
+A couple of pullups and pulldowns were needed in order to make sure that the signal was either clean, or was at a 0/1 state for certain settings.
+
+Thankfully nothing was differentially required, but strict length and impedance matching was needed, which I will keep in mind when routing this IC.  
+
